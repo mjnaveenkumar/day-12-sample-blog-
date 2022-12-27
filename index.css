@@ -1,0 +1,108 @@
+ul {
+    list-style-type: none;
+    font-size: larger;
+    font-weight: lighter; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal; 
+    
+}
+li {
+    display: inline-block;
+    padding : 5px;
+}
+nav {
+    border: 1px solid black;
+    border-radius: 10px; 
+    text-align: end;
+}
+main{
+    text-align: center;
+    margin: 100px;
+}
+.content-body{
+    border: 100px solid solid whitesmoke !important;
+    padding : 00px;
+    margin:30px;
+    background-color: red !important;   
+}
+.heading{
+    font-size: smaller;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+#home{
+ 
+    color: green
+}
+
+#about{
+    
+    color: red;
+}
+#education{
+    
+    color:yellow;
+}
+#projects{   
+    color: brown;
+}
+#content{
+    
+    color: goldenrod;
+}
+.projects-class{
+    border: 10px solid black;
+    color: white;
+    background-color: blueviolet;
+}
+.content-class{
+    color: lightgray;
+    background-color: brown;
+}
+span{
+    display: inline-block;
+    border : 1px solid black;
+    padding:10px;
+    width:150px;
+    height: 150px;
+    color:whitesmoke;
+    background-color: burlywood;
+}
+section{
+    height: 100vh;
+    border: 1px solid black;;
+}
+a:link{
+    color: dimgrey;
+    text-align: center;
+    font-size:smaller;
+    margin-bottom: 20px
+}
+a:visited{
+    color: rgb(0, 26, 255);
+}
+a:hover{
+    color: rgb(168, 27, 27);
+    font-size: larger;
+    font-weight: 100;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    color: dimgrey;
+   
+    font-size:smaller;
+    margin-bottom: 20px
+}
+.img{
+    width: 1080px;
+    height: 2000px;
+    
+
+}
+.div-ioio{
+position: -webkit-sticky;
+position: sticky;
+}
